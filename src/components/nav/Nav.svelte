@@ -1,3 +1,3 @@
 <nav>
-    <h1>Navbar here</h1>
+	<h1>Navbar here</h1>
 </nav>
