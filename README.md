@@ -26,6 +26,7 @@ prod -> [TBA]
 - There is **1 page** 
   - `/src/routes/+page.svelte`
 - `/src/components` contains all the components
+- `/src/lib/translation` contains all the translation files (please add your translation of each module in en,th folder)
 
 ### Deployment
 We're using `main` as our staging and prod build. so you can merge to main directly and it will build to staging site automatically. for prod, you may need to trigger the build by yourself.
