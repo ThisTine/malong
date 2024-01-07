@@ -9,7 +9,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: [self-hosted, Linux, X64]
+    runs-on: ubuntu-latest
     environment: prod
     steps:
       - name: login 👀 and deploy
