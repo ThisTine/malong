@@ -3,5 +3,5 @@
 </script>
 
 <div>
-	<h1>{$t('home.welcome')}</h1>
+	<h1 class="text-header font-bold">{$t('home.welcome')}</h1>
 </div>

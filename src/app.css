@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;700&family=Roboto&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "googleSans";
+    src: url("fonts/ProductSans-Regular.woff");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "googleSans";
+    src: url("fonts/ProductSans-Bold.woff");
+    font-weight: 700;
+}
+
+*{
+    font-family: "googleSans", "Noto Sans Thai" , serif;
+}
