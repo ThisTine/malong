@@ -16,20 +16,34 @@
 </script>
 
 <header>
+	<!--Fxh-->
 	<Nav />
 </header>
 <main>
+	<!--Fxh-->
 	<Hero />
+	<!--Ice-->
 	<CountDown />
+	<!--Boom-->
 	<Info />
+	<!--Fxh-->
 	<SDG />
+	<!--Tine-->
 	<Timeline />
+	<!--Ice-->
 	<Criteria />
+	<!--Night-->
 	<HowToJoin />
+	<!--Ice-->
 	<Venue />
+	<!--Night -->
 	<Agenda />
+	<!--Night -->
 	<FAQ />
+	<!--Eve-->
 	<AboutGdsc />
+	<!--Eve-->
 	<Chapters />
+	<!--Eve-->
 	<Sponsors />
 </main>
