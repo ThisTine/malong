@@ -19,3 +19,12 @@
 *{
     font-family: "googleSans", "Noto Sans Thai" , serif;
 }
+
+@layer components{
+    main{
+        @apply flex flex-col
+    }
+    .wrapper{
+        @apply max-w-screen-lg mx-auto w-full
+    }
+}
