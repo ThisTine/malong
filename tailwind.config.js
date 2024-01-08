@@ -20,7 +20,7 @@ export default {
 			fontSize: {
 				header: '3.75rem',
 				h2: '2.5rem',
-				subheader: '1.875rem',
+				subheader: '1rem',
 				body1: '1.25rem'
 			},
 			fontWeight: {
