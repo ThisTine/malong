@@ -135,12 +135,12 @@ column-gap: 50px;
   
 	{#if showMobileMenu}
       <div class="mobile-menu">
-      <a href="#overview"><p>{$t('home.overview')}</a>
-      <a href="#faq">{$t('home.faqs')}</a>
-      <a href="#timeline">{$t('home.timeline')}</a>
-      <a href="#about">{$t('home.about')}</a>
+      <a class="text-black font-normal" href="#overview"><p>{$t('home.overview')}</a>
+      <a class="text-black font-normal" href="#faq">{$t('home.faqs')}</a>
+      <a class="text-black font-normal" href="#timeline">{$t('home.timeline')}</a>
+      <a class="text-black font-normal" href="#about">{$t('home.about')}</a>
 	  <div>
-      	<div class="dropdown onlyMobile" >
+      	<div class="dropdown onlyMobile text-black font-normal" >
         <button on:click={toggleDropdown}>
           {$t('home.lang')}
           <img src="down.svg" alt="Down" class="icon" />
@@ -160,12 +160,12 @@ column-gap: 50px;
    
 	  <div  class="nav-links wrapper flex w-full justify-center " >
       <div style="display: flex; justify-content: center; gap:30px;">
-      <a href="#overview"><p>{$t('home.overview')}</a>
-      <a href="#faq">{$t('home.faqs')}</a>
-      <a href="#timeline">{$t('home.timeline')}</a>
-      <a href="#about">{$t('home.about')}</a>
+      <a class="text-black font-normal" href="#overview"><p>{$t('home.overview')}</a>
+      <a class="text-black font-normal" href="#faq">{$t('home.faqs')}</a>
+      <a class="text-black font-normal" href="#timeline">{$t('home.timeline')}</a>
+      <a class="text-black font-normal" href="#about">{$t('home.about')}</a>
 	  <div>
-      	<div class="dropdown" >
+      	<div class="dropdown text-black font-normal" >
         <button on:click={toggleDropdown}>
           {$t('home.lang')}
           <img src="down.svg" alt="Down" class="icon" />
