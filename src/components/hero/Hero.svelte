@@ -31,7 +31,7 @@ text-align: center;
 	<body class="font-bold text-yellow-500">{$t('home.intro')}</body>
 	<h1 class="text-header font-bold text-black ">{$t('home.title')}</h1>
 	<body class="text-black font-normal">{$t('home.body')}</body>
-	<a href="" target="_blank" class="styleButton text-white font-normal">
+	<a href="https://gdsc.community.dev/events/details/developer-student-clubs-thammasat-university-presents-malong-thailand-demo-day/cohost-king-mongkuts-university-of-technology-thonburi" target="_blank" class="styleButton text-white font-normal">
                 {$t('home.regis')}
             </a>
 	</div>
