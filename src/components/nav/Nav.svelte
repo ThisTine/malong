@@ -1,3 +1,185 @@
+<script>
+import { t } from '$lib/translation/translations';
+ 
+  let showMobileMenu = false;
+
+  let showDropdown = false;
+
+  function toggleDropdown() {
+    showDropdown = !showDropdown;
+  }
+</script>
+
+<style>
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 50px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {background-color: #f1f1f1}
+
+  .show {display: block;}
+
+  .divider {
+    border-top: 1px solid #eee;
+    margin: 8px 0;
+  }
+
+  button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  img.icon {
+    margin-left: 5px;
+  }
+  .nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+
+.hamburger {
+  width: 24px; 
+  height: 24px; 
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+/* navbar side*/
+ @media (max-width: 768px) {
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0%;
+  width: 60%; 
+  height: 100%;
+  background: radial-gradient(circle, rgb(165, 194, 240) 0%, rgba(254, 255, 254, 0.962) 100%);
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  z-index: 2; 
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+}
+ }
+.nav-links{
+column-gap: 50px;
+}
+
+@media (max-width: 768px) {
+  /* Hide the regular nav-links in mobile view */
+  .nav-links {
+    display: none;
+  }
+  /* Show the hamburger menu */
+  .hamburger {
+    display: block;
+  }
+  .close{
+	display: flex;
+	justify-self: center;
+	margin-top: 120px;
+	width: 30px;
+  }
+  
+}
+
+@media (min-width: 768px){
+	.mobile-menu{
+		display: none;
+	}
+}
+
+
+</style>
+
 <nav>
-	<h1>Navbar here</h1>
-</nav>
+  <div class="wrapper flex w-full justify-center mt-5 mb-5" >
+	 <div class="nav-container flex justify-between items-center w-full">
+	  <button class="hamburger" on:click={() => (showMobileMenu = !showMobileMenu)}>
+       <img src="burger.svg" alt="Menu" />
+      </button>
+    <img class="logo"  alt="Logo" src="logo.png" style="width:100px" />
+
+	</div>
+  
+	{#if showMobileMenu}
+      <div class="mobile-menu">
+      <a href="#overview"><p>{$t('home.overview')}</a>
+      <a href="#faq">{$t('home.faqs')}</a>
+      <a href="#timeline">{$t('home.timeline')}</a>
+      <a href="#about">{$t('home.about')}</a>
+	  <div>
+      	<div class="dropdown onlyMobile" >
+        <button on:click={toggleDropdown}>
+          {$t('home.lang')}
+          <img src="down.svg" alt="Down" class="icon" />
+        </button>
+        <div class={showDropdown ? "dropdown-content show" : "dropdown-content"}>
+          <a href="en">EN</a>
+          <div class="divider"></div>
+          <a href="th">TH</a>
+        </div>
+		<button class="close" on:click={() => (showMobileMenu = !showMobileMenu)}>
+       <img src="close.svg" alt="close" />
+      </button>
+		</div>
+      </div>
+    </div>
+   {/if}
+   
+	  <div  class="nav-links wrapper flex w-full justify-center " >
+      <div style="display: flex; justify-content: center; gap:30px;">
+      <a href="#overview"><p>{$t('home.overview')}</a>
+      <a href="#faq">{$t('home.faqs')}</a>
+      <a href="#timeline">{$t('home.timeline')}</a>
+      <a href="#about">{$t('home.about')}</a>
+	  <div>
+      	<div class="dropdown" >
+        <button on:click={toggleDropdown}>
+          {$t('home.lang')}
+          <img src="down.svg" alt="Down" class="icon" />
+        </button>
+        <div class={showDropdown ? "dropdown-content show" : "dropdown-content"}>
+          <a href="en">EN</a>
+          <div class="divider"></div>
+          <a href="th">TH</a>
+        </div>
+		</div>
+      </div>
+	    </div>
+
+    </div>
+  </div>
+ </nav>
+
