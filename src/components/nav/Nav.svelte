@@ -114,7 +114,7 @@ column-gap: 50px;
   
 }
 
-@media (min-width: 768px){
+@media (min-width: 1080px){
 	.mobile-menu{
 		display: none;
 	}
