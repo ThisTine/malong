@@ -7,7 +7,7 @@
 .layoutbody{
 @media only screen and (max-width: 680px) {
 		margin: 20px;
-		padding-top: 20px;
+		padding-top: 100px;
 		
 	}
 	margin-left: 200px;
