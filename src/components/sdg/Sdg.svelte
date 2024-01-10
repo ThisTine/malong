@@ -58,12 +58,13 @@
 	<div class="layout" >
 	<div  style="display: flex; flex-direction: column;  flex-basis: 33.33%; ">
 	<body class="font-bold text-green-500">{$t('home.introsdg')}</body>
-	<h1 class="text-h2 font-bold text-black ">{$t('home.title')}</h1>
+
+	<h1 class="text-h2 font-bold text-black ">{$t('home.titlesdg')}</h1>
 	</div>
 	<div class="mt-10" style="display: flex; flex-direction: column; flex-basis: 66.66%; max-width: 600px;">
-	<body class="text-black font-normal">{$t('home.body')}</body>
+	<body class="text-black font-normal">{$t('home.bodysdg')}</body>
 	<div class="link">
-	<body class="text-black font-normal" style="margin-right: 10px;" >{$t('home.note')}</body>
+	<body class="text-black font-normal" style="margin-right: 10px;" >{$t('home.notesdg')}</body>
 	<a href="https://sdgs.un.org/goals" target="_blank" class="text-black font-normal" style="text-decoration: underline;">United Nations SDGs</a>
 </div>
 </div>
