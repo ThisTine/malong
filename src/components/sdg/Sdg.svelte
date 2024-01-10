@@ -58,6 +58,7 @@
 	<div class="layout" >
 	<div  style="display: flex; flex-direction: column;  flex-basis: 33.33%; ">
 	<body class="font-bold text-green-500">{$t('home.introsdg')}</body>
+
 	<h1 class="text-h2 font-bold text-black ">{$t('home.titlesdg')}</h1>
 	</div>
 	<div class="mt-10" style="display: flex; flex-direction: column; flex-basis: 66.66%; max-width: 600px;">
