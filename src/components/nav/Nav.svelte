@@ -117,6 +117,9 @@ column-gap: 50px;
   justify-content: center;
 }
 
+.hamburger{
+  margin-right: 15px;
+}
 }
 
 @media (min-width: 1080px){
@@ -140,10 +143,17 @@ column-gap: 50px;
  
 }
 
+.navbg{
+  background-color: #FBFCFF;
+  /* padding: 2px 0; */
+  position: fixed;
+  width: 100%;
+}
 
 </style>
 
 <nav>
+  <div class="navbg">
   <div class="wrapper flex w-full mt-5 mb-5" >
 	 <div class="nav-container flex">
 	  <button class="hamburger" on:click={() => (showMobileMenu = !showMobileMenu)}>
@@ -201,6 +211,7 @@ column-gap: 50px;
 	    </div>
 
     </div>
+  </div>
   </div>
  </nav>
 
