@@ -48,5 +48,5 @@
 	<!--Eve-->
 	<Chapters />
 	<!--Eve-->
-	<Sponsors />
+	<Sponsors sponsors={data.sponsor}/>
 </main>
