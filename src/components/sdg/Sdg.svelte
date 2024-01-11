@@ -26,9 +26,9 @@
 		</div>
 	</div>
 	<div class="layout">
-		<img class="box" src="sdg.png" alt="sdg" />
-		<div class="box"></div>
-		<div class="box"></div>
+		<iframe  title="Tune in for the 2023 Solution Challenge with Google Developer Student Clubs!"class="box" src="https://www.youtube.com/embed/t9zlSOCCmKk"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<iframe  title="UN Sustainable Development Goals - Overview"class="box" src="https://www.youtube.com/embed/M-iJM02m_Hg"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<iframe  title="ความรู้เกี่ยวกับเป้าหมายการพัฒนาที่ยั่งยืน (Sustainable Development Goals: SDGs)"class="box" src="https://www.youtube.com/embed/qbdJIheGgXU"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	</div>
 </div>
 
