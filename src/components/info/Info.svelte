@@ -1,16 +1,19 @@
 <script>
 	import { t } from '$lib/translation/translations';
 	import infoVector1 from '$lib/image/info-vector.png';
+	import infoSec1 from '$lib/image/infoSec1.png';
+	import infoSec2 from '$lib/image/infoSec2.png';
+	import infoSec3 from '$lib/image/infoSec3.png';
+	import infoSec4 from '$lib/image/infoSec4.png';
 </script>
 
-<div class="wrapper flex w-full justify-center flex-col">
-	<div class="md:flex max-md:items-center w-full">
+<div class=" flex w-full justify-center flex-col">
+	<!-- First Info -->
+	<div class="wrapper md:flex max-md:items-center w-full">
 		<img alt="info-vector" src={infoVector1} class="md:hidden w-max h-auto mx-auto" />
 		<div class="p-4">
-			<div
-				class="flex text-h2 whitespace-nowrap max-lg:whitespace-normal max-lg:text-pretty font-bold"
-			>
-				{#each [$t('home.info1Title'), $t('home.info1TitleMA'), $t('home.info1TitleL'), $t('home.info1TitleO'), $t('home.info1TitleNG')] as title, index}
+			<div class="flex text-h2 whitespace-nowrap max-lg:text-pretty font-bold">
+				{#each [$t('home.info1Title'), $t('home.info1TitleMA'), $t('home.info1TitleL'), $t('home.info1TitleO'), $t('home.info1TitleNG')] as title}
 					<p
 						class={title === $t('home.info1Title')
 							? 'text-black'
@@ -56,6 +59,65 @@
 	<!-- Another components -->
 	<div class="wrapper flex-col justify-items-center pt-5">
 		<h2 class="text-h2 font-bold text-center">{$t('home.info2Title')}</h2>
-	
+		<div class="wrapper flex flex-col justify-center items-center p-4">
+			<div class="md:grid md:grid-cols-2 md:grid-rows-2">
+				{#each [infoSec1, infoSec2, infoSec3, infoSec4] as image, index}
+					<div class="flex flex-col max-md:items-center">
+						<div
+							class={`text-white text-body1 rounded-full h-12 w-12 flex justify-center items-center mb-1 ${
+								index === 0
+									? 'bg-blue500'
+									: index === 1
+										? 'bg-green500'
+										: index === 2
+											? 'bg-yellow600'
+											: 'bg-red500'
+							}`}
+						>
+							{index + 1}
+						</div>
+						<div class="flex items-end h-64">
+							<img alt={`infoSec${index + 1}`} src={image} class="w-max h-max mx-auto my-max" />
+						</div>
+						{#if index === 3}
+							<h3
+								class="flex text-center text-body1 items-center justify-center p-5 whitespace-nowrap"
+							>
+								{@html $t(`home.infoSection${index + 1}`)}
+							</h3>
+						{:else}
+							<h3 class="flex text-center text-body1 items-center justify-center p-5">
+								{@html $t(`home.infoSection${index + 1}`)}
+							</h3>
+						{/if}
+					</div>
+				{/each}
+			</div>
+		</div>
 	</div>
+
+	<!-- footer link -->
+	<section class="w-full h-auto p-10 bg-gradient-to-r from-blue-500 to-blue-300 flex">
+		<div class="wrapper flex flex-row max-md:flex-col items-center text-white font-bold">
+			<div class="flex-1 pr-2 max-lg:text-center md:w-[40%] text-pretty">
+				{$t('home.infoFooter1')}
+			</div>
+			<div class="flex px-auto py-5 mx-auto justify-center items-center">
+				<button
+					class="text-xl bg-transparent hover:bg-slate-50 text-slate-50 font-bold hover:text-blue-500 border-2 border-slate-50 hover:border-blue-500
+					w-[193px] h-[49px] px-8 py-3 rounded-2xl justify-center items-center gap-2.5 inline-flex"
+					on:click={() =>
+						// Register Link
+						window.open('', '_blank')}
+				>
+					Register Now
+				</button>
+			</div>
+			<div class="flex-1 pl-3 text-center text-pretty">
+				<a href="/" class="underline" on:click={() => window.open('/th', '_blank')}
+					>{$t('home.infoFooter2')}</a
+				>
+			</div>
+		</div>
+	</section>
 </div>
