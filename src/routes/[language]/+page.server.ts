@@ -3,7 +3,7 @@ import type { PageServerLoad } from './$types';
 export const load: PageServerLoad = async ({ params }) => {
 	let data;
 	try {
-		const dataD = await malongAPI.get<SponsorList>('/sponsors.json');
+		const dataD = await malongAPI.get<Sponsor[]>('/sponsors.json');
 		data = dataD.data;
 	} catch (err) {
 		console.log(err);
