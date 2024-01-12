@@ -1,11 +1,16 @@
 <script>
 	import { t } from '$lib/translation/translations';
+	import infoVector1 from '$lib/image/info-vector.png';
+	import infoSec1 from '$lib/image/infoSec1.png';
+	import infoSec2 from '$lib/image/infoSec2.png';
+	import infoSec3 from '$lib/image/infoSec3.png';
+	import infoSec4 from '$lib/image/infoSec4.png';
 </script>
 
 <div class=" flex w-full justify-center flex-col">
 	<!-- First Info -->
 	<div class="wrapper md:flex max-md:items-center w-full">
-		<img alt="info-vector" src="info-vector.png" class="md:hidden w-max h-auto mx-auto" />
+		<img alt="info-vector" src={infoVector1} class="md:hidden w-max h-auto mx-auto" />
 		<div class="p-4">
 			<div class="flex text-h2 whitespace-nowrap max-lg:text-pretty font-bold">
 				{#each [$t('home.info1Title'), $t('home.info1TitleMA'), $t('home.info1TitleL'), $t('home.info1TitleO'), $t('home.info1TitleNG')] as title}
@@ -48,11 +53,7 @@
 				</p>
 			</div>
 		</div>
-		<img
-			alt="info-vector"
-			src="info-vector.png"
-			class="max-md:hidden w-max h-max mx-auto my-auto"
-		/>
+		<img alt="info-vector" src={infoVector1} class="max-md:hidden w-max h-max mx-auto my-auto" />
 	</div>
 
 	<!-- Another components -->
@@ -60,7 +61,7 @@
 		<h2 class="text-h2 font-bold text-center">{$t('home.info2Title')}</h2>
 		<div class="wrapper flex flex-col justify-center items-center p-4">
 			<div class="md:grid md:grid-cols-2 md:grid-rows-2">
-				{#each ["infoSec1.png", "infoSec2.png", "infoSec3.png", "infoSec4.png"] as image, index}
+				{#each [infoSec1, infoSec2, infoSec3, infoSec4] as image, index}
 					<div class="flex flex-col max-md:items-center">
 						<div
 							class={`text-white text-body1 rounded-full h-12 w-12 flex justify-center items-center mb-1 ${
