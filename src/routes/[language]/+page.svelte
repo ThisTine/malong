@@ -13,11 +13,14 @@
 	import Sponsors from '../../components/sponsors/Sponsors.svelte';
 	import SDG from '../../components/sdg/Sdg.svelte';
 	import Nav from '../../components/nav/Nav.svelte';
+
+	/** @types import("./$types").PageData */
+	export let data;
 </script>
 
 <header>
 	<!--Fxh-->
-	<Nav />
+	<Nav lang={data.lang} />
 </header>
 <main>
 	<!--Fxh-->
@@ -45,5 +48,5 @@
 	<!--Eve-->
 	<Chapters />
 	<!--Eve-->
-	<Sponsors />
+	<Sponsors sponsors={data.sponsor}/>
 </main>
