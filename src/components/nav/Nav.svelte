@@ -181,5 +181,6 @@
 		/* padding: 2px 0; */
 		position: fixed;
 		width: 100%;
+		z-index: 1;
 	}
 </style>
