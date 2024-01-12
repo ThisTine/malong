@@ -1,7 +1,7 @@
 <script>
 	import { t } from '$lib/translation/translations';
 
-/** @type {Sponsor}*/
+/** @type {import('../../types/sponsor').Sponsor}*/
 	export let sponsor;
 </script>
 

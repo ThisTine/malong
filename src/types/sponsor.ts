@@ -1,4 +1,4 @@
-type Sponsor = {
+export type Sponsor = {
 	name: string;
 	image: string;
 };

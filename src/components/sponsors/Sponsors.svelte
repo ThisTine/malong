@@ -2,6 +2,7 @@
 	import { t } from '$lib/translation/translations';
 	import { onMount } from 'svelte';
 	import SponsorCard from './SponsorCard.svelte';
+	import type { Sponsor } from '../../types/sponsor';
 	
 
 	/** @type {Sponsor[]}*/

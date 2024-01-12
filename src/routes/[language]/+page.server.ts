@@ -1,3 +1,4 @@
+import type { Sponsor } from '../../types/sponsor';
 import { malongAPI } from '../../utils/server';
 import type { PageServerLoad } from './$types';
 export const load: PageServerLoad = async ({ params }) => {
