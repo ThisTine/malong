@@ -1,1 +1,12 @@
-{}
+{
+    "scheduleAgenda": "Event schedule",
+    "titleAgenda": "Agenda",
+    "agendaListTime1": "10:00 a.m.",
+    "scheduleAgenda1": "begin presenting the concept",
+    "agendaListTime2": "12:00 p.m.",
+    "scheduleAgenda2": "lunch",
+    "agendaListTime3": "2:00 p.m.",
+    "scheduleAgenda3": "break",
+    "agendaListTime4": "5:00 p.m.",
+    "scheduleAgenda4": "announce the results"
+}
