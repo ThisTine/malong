@@ -1,1 +1,12 @@
-{}
+{
+    "compet" : "เกณฑ์การแข่งขัน",
+    "cite" : "เกณฑ์",
+    "round1" : "TBA",
+	"citeriaFirstRound1": "เป็นนักเรียน นิสิต/นักศึกษา",
+	"citeriaFirstRound2": "สมาชิกในทีมอย่างน้อย 1 คน ต้องเป็นสมาชิกของ GDSC",
+	"citeriaFirstRound3": "สามารถเข้าได้แค่ 1 ทีมเท่านั้น",
+    "round2" : "TBA",
+	"citeriaSecondRound1": "เป็นนักเรียน นิสิต/นักศึกษา",
+	"citeriaSecondRound2": "สมาชิกในทีมอย่างน้อย 1 คน ต้องเป็นสมาชิกของ GDSC",
+	"citeriaSecondRound3": "สามารถเข้าได้แค่ 1 ทีมเท่านั้น"
+}
