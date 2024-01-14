@@ -1,1 +1,5 @@
-{}
+{
+    "whereHost" : "Where is this event held?",
+    "venue" : "Venue",
+    "thammasat" : "Thammasat University, Rangsit"
+}
