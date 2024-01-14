@@ -7,7 +7,7 @@
 
 <div class="chapter-card flex flex-col justify-between items-center">
 	<img src={chapter.logo} alt={chapter.name} />
-	<h2 class="text-subheader font-bold">{chapter.name}</h2>
+	<h2 class="text-subheader font-bold mt-3">{chapter.name}</h2>
 </div>
 
 <style>
@@ -15,7 +15,7 @@
 		/* max-width: 380px; */
 		height: 252px;
 		padding: 1.5rem;
-		padding-top: 1em;
+		padding-top: 3rem;
 		border-radius: 16px;
 		border: 1px solid #f1f3f4;
 		background: #ffffff;

@@ -5,13 +5,13 @@
 <div class=" flex w-full justify-center flex-col">
 	<!-- First Info -->
 	<div class="wrapper md:flex max-md:items-center w-full">
-		<img alt="info-vector" src="info-vector.png" class="md:hidden w-max h-auto mx-auto" />
-		<div class="p-4">
+		<img alt="info-vector" src="info-vector.png" class="md:hidden w-max h-auto mx-auto pt-5" />
+		<div class="p-4 flex flex-col max-md:items-center">
 			<div class="flex text-h2 whitespace-nowrap max-lg:text-pretty font-bold">
 				{#each [$t('home.info1Title'), $t('home.info1TitleMA'), $t('home.info1TitleL'), $t('home.info1TitleO'), $t('home.info1TitleNG')] as title}
 					<p
 						class={title === $t('home.info1Title')
-							? 'text-black'
+							? 'text-black max-md:text-center'
 							: title === $t('home.info1TitleMA')
 								? 'text-blue500 max-lg:hidden max-lg:overflow-hidden ml-2'
 								: title === $t('home.info1TitleL')
@@ -60,7 +60,7 @@
 		<h2 class="text-h2 font-bold text-center">{$t('home.info2Title')}</h2>
 		<div class="wrapper flex flex-col justify-center items-center p-4">
 			<div class="md:grid md:grid-cols-2 md:grid-rows-2">
-				{#each ["infoSec1.png", "infoSec2.png", "infoSec3.png", "infoSec4.png"] as image, index}
+				{#each ['infoSec1.png', 'infoSec2.png', 'infoSec3.png', 'infoSec4.png'] as image, index}
 					<div class="flex flex-col max-md:items-center">
 						<div
 							class={`text-white text-body1 rounded-full h-12 w-12 flex justify-center items-center mb-1 ${
