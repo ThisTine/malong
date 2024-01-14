@@ -29,8 +29,8 @@
 		{#if chapter.name != "GDSC MU"}
 			<ChapterCard chapter={chapter} />
 		{:else}
-			<div class="grid grid-cols-subgrid gap-5 col-span-3">
-    			<div class="col-start-2">
+			<div class="md:grid md:grid-cols-subgrid md:gap-5 md:col-span-3">
+    			<div class="md:col-start-2">
 					<ChapterCard chapter={chapter} />
 				</div>
   			</div>

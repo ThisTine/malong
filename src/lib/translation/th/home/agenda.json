@@ -1,1 +1,12 @@
-{}
+{
+    "scheduleAgenda": "กำหนดการวันงาน",
+    "titleAgenda": "กำหนดการ",
+    "agendaListTime1": "10:00 น.",
+    "scheduleAgenda1": "เริ่มนำเสนอไอเดีย",
+    "agendaListTime2": "12:00 น.",
+    "scheduleAgenda2": "พักกลางวัน",
+    "agendaListTime3": "14:00 น.",
+    "scheduleAgenda3": "พักเบรค",
+    "agendaListTime4": "17:00 น.",
+    "scheduleAgenda4": "ประกาศผล"
+}
