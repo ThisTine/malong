@@ -49,10 +49,17 @@
 
 	.vertical-line {
 		position: absolute;
-		height: 90%;
+		height: 85%;
 		width: 3px;
 		background-color: #4285f4;
-		left: 2.6%;
+		left: 2.3%;
 		transform: translateX(-50%);
 	}
+	.container {
+		@media only screen and (max-width: 1024px) {
+			padding: 20px;
+			/* padding-top: 100px; */
+		}
+	}
 </style>
+

@@ -1,1 +1,11 @@
-{}
+{
+	"faq": "Do you have any questions or concerns?",
+	"titleFaq": "Frequently Asked Questions",
+	"q1Faq": "If there is no GDSC in the school or university, can I still participate?",
+	"a1Faq": "If there is no GDSC in the school or university, you can join the nearest GDSC as a member. Just this much, and you can participate.",
+	"q2Faq": "Is it necessary to use Google technology to participate, or not?",
+	"a2Faq": "Not necessary; you can also use other technologies to participate in the competition.",
+    "q3Faq": "If you don't want to participate but just want to attend and observe the presentation, is that possible?",
+    "a3Faq": "Yes, just reserve an RSVP for attendees through the GDSC Platform.",
+    "othersFaq": "Others"
+}
