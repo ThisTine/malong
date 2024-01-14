@@ -1,1 +1,12 @@
-{}
+{
+    "compet" : "Competiton Criteria",
+    "cite" : "Citeria",
+    "round1" : "TBA",
+	"citeriaFirstRound1": "A student or learner",
+	"citeriaFirstRound2": "At least one member of the team must be a member of GDSC",
+	"citeriaFirstRound3": "Only one team is allowed to participate",
+    "round2" : "TBA",
+	"citeriaSecondRound1": "A student or learner",
+	"citeriaSecondRound2": "At least one member of the team must be a member of GDSC",
+	"citeriaSecondRound3": "Only one team is allowed to participate"
+}
