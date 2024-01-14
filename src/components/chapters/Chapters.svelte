@@ -40,14 +40,13 @@
 	<h2 class="text-h2 font-bold text-center">{$t('home.chapterHeader')}</h2>
 
 	<div class="grid grid-cols-1 md:grid-cols-3 gap-5 p-5 pb-10 justify-center">
-		{#each chapters as chapter}
-			{#if chapter.name != 'GDSC MU'}
-				<ChapterCard {chapter} />
-			{:else}
-				<div class="md:grid md:grid-cols-subgrid md:gap-5 md:col-span-3">
-					<div class="md:col-start-2">
-						<ChapterCard {chapter} />
-					</div>
+    {#each chapters as chapter}
+		{#if chapter.name != "GDSC MU"}
+			<ChapterCard chapter={chapter} />
+		{:else}
+			<div class="md:grid md:grid-cols-subgrid md:gap-5 md:col-span-3">
+    			<div class="md:col-start-2">
+					<ChapterCard chapter={chapter} />
 				</div>
 			{/if}
 		{/each}
