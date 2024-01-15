@@ -7,7 +7,7 @@
 
 <div class="chapter-card flex flex-col justify-between items-center">
 	<img src={chapter.logo} alt={chapter.name} />
-	<h2 class="text-subheader font-bold mt-3">{chapter.name}</h2>
+	<h2 class="text-subheader font-bold">{chapter.name}</h2>
 </div>
 
 <style>
