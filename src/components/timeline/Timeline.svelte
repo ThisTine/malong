@@ -2,7 +2,7 @@
 	import { t } from '$lib/translation/translations';
 </script>
 
-<div class="wrapper flex w-full justify-center flex-col">
+<div id="timeline" class="wrapper flex w-full justify-center flex-col">
 	<h3 class="text-subheader font-bold text-red500 text-center">{$t('home.timelineSubtitle')}</h3>
 	<h2 class="text-h2 font-bold text-center">{$t('home.timelineTitle')}</h2>
 	<div class="w-full aspect-[1056/440] relative">

@@ -13,10 +13,18 @@
 	import Sponsors from '../../components/sponsors/Sponsors.svelte';
 	import SDG from '../../components/sdg/Sdg.svelte';
 	import Nav from '../../components/nav/Nav.svelte';
+	import { t } from '$lib/translation/translations';
 
 	/** @types import("./$types").PageData */
 	export let data;
 </script>
+
+<svelte:head>
+	<title>{$t('home.linkTitle')}</title>
+	<meta property="og:title" content={$t('home.linkTitle')} />
+	<meta property="og:description" content={$t('home.body')} />
+	<meta property="og:image" content="cdn.malonghack.com/og-image.jpg" />
+</svelte:head>
 
 <header>
 	<!--Fxh-->
@@ -48,5 +56,5 @@
 	<!--Eve-->
 	<Chapters />
 	<!--Eve-->
-	<Sponsors sponsors={data.sponsor}/>
+	<Sponsors sponsors={data.sponsor ?? []} />
 </main>
