@@ -102,20 +102,16 @@
 				{$t('home.infoFooter1')}
 			</div>
 			<div class="flex px-auto py-5 mx-auto justify-center items-center">
-				<button
+				<a
 					class="text-xl bg-transparent hover:bg-slate-50 text-slate-50 font-bold hover:text-blue-500 border-2 border-slate-50 hover:border-blue-500
 					w-[193px] h-[49px] px-8 py-3 rounded-2xl justify-center items-center gap-2.5 inline-flex"
-					on:click={() =>
-						// Register Link
-						window.open('', '_blank')}
+					href="https://gdsc.community.dev/events/details/developer-student-clubs-thammasat-university-presents-malong-thailand-demo-day/"
 				>
 					Register Now
-				</button>
+				</a>
 			</div>
 			<div class="flex-1 pl-3 text-center text-pretty">
-				<a href="/" class="underline" on:click={() => window.open('/th', '_blank')}
-					>{$t('home.infoFooter2')}</a
-				>
+				<a href="#faq" class="underline">{$t('home.infoFooter2')}</a>
 			</div>
 		</div>
 	</section>

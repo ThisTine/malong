@@ -3,7 +3,7 @@
 	import FAQ from './FAQCard.svelte';
 </script>
 
-<div class="container wrapper flex flex-col items-center mb-10 max-w-818">
+<div id="faq" class="container wrapper flex flex-col items-center mb-10 max-w-818">
 	<div class="text-subheader font-bold text-yellow-500">{$t('home.faq')}</div>
 	<h1 class="text-h2 font-bold">{$t('home.titleFaq')}</h1>
 	<div class="faq-container">
