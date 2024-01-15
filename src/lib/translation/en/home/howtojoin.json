@@ -1,1 +1,12 @@
-{}
+{
+	"introHowToJoin": "If you want to join, how should you do?",
+	"titleHowToJoin": "How to join",
+	"descriptionHowToJoin": "The team that is interested in submitting their work must adhere to the specified schedule, and the organizing team will select and announce the teams that are of interest. These selected teams will have the opportunity to present their work in an on-site format. To participate, teams must meet the following qualifications:",
+	"featureHowToJoin": "Qualification of Applicant",
+	"featureHowToJoin1": "A student or learner",
+	"featureHowToJoin2": "At least one member of the team must be a member of GDSC",
+	"featureHowToJoin3": "Only one team is allowed to participate",
+	"matchingHowToJoin": "Team Formation",
+	"matchingHowToJoin1": "Amount of the team member should be 1 - 4 members",
+	"matchingHowToJoin2": "Not necessary to be from the same school/university"
+}

@@ -1,1 +1,18 @@
-{}
+{
+	"info1Title": "สิ่งที่ควรรู้ก่อน",
+	"info1TitleMA": "มา",
+	"info1TitleL": "ล",
+	"info1TitleO": "อ",
+	"info1TitleNG": "ง",
+	"info1describeHeader": "Malong",
+	"info1describe": "เป็นกิจกรรมที่เปิดให้กับนักเรียน นิสิต และนักศึกษาที่มีความสนใจด้านเทคโนโลยี “มาลอง” เสนอไอเดียเแก้ไขปัญหาเพื่อโลกและสังคมของเรา โดยเจาะจงไปที่การแก้ปัญหา 17 Sustainable Development Goals (SDGs) ของ United Nation (UN) โดยผู้ที่เข้าร่วมการนำเสนอจะได้รับคำแนะนำจากผู้เชี่ยวชาญ ทั้งด้านเทคโนโลยี และ SGDs อีกด้วยเพื่อใช้ในการพัฒนาผลงานและทักษะในการนำเสนอผลงานในอนาคต และยังได้แลกเปลี่ยนความรู้ในช่วง Talk Session โดยทีมนักพัฒนาของ Google เพื่อส่งต่อประสบการณ์และถ่ายทอดความรู้เบื้องต้นแก่ผู้เข้าร่วมงานทุกคน",
+
+	"info2Title": "มาลองแล้วได้อะไร",
+	"infoSection1": "ได้นำเสนอแนวคิดและวิธีแก้ไขปัญหาของตัวเอง",
+	"infoSection2": "ได้รับฟังความคิดเห็นจากผู้เชี่ยวชาญเพื่อปรับปรุงผลงานและทักษะของตนเองในอนาคต",
+	"infoSection3": "ได้รับความรู้และฝึกประสบการณ์ในการทำงานร่วมกับเพื่อนร่วมทีม",
+	"infoSection4": "ได้รับของรางวัลจาก <span class='text-blue500 text-body font-bold'>&nbsp; G </span> <span class='text-green500 text-body font-bold'> D </span> <span class='text-yellow600 text-body font-bold'> S </span> <span class='text-red500 text-body font-bold'> C </span> <span class='text-black text-body font-bold'>&nbsp; Thailand</span>",
+
+	"infoFooter1": "พร้อมแล้วก็สมัครเลย! มาเปลี่ยนโลกไปด้วยกันกับเรา",
+	"infoFooter2": "ดูเกณฑ์การเข้าร่วม และ FAQs"
+}

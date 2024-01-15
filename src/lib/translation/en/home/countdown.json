@@ -1,1 +1,8 @@
-{}
+{
+    "deadline" : "⏳ Time before the application deadline",
+    "seeu" : "We are excited to see you!",
+    "day" : "Day",
+    "hour" : "Hour",
+    "minute" : "Minute",
+    "second" : "Second"
+}
