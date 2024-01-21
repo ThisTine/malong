@@ -22,15 +22,29 @@
 
 			{#if showMobileMenu}
 				<div transition:slide={{ axis: 'x' }} class="mobile-menu z-20">
-					<a class="text-black font-normal" href="#overview"><p>{$t('home.overview')}</p></a>
-					<a class="text-black font-normal" href="#faq">{$t('home.faqs')}</a>
-					<a class="text-black font-normal" href="#timeline">{$t('home.timeline')}</a>
-					<a class="text-black font-normal" href="#about">{$t('home.about')}</a>
+					<a
+						on:click={() => (showMobileMenu = false)}
+						class="text-black font-normal"
+						href="#overview"><p>{$t('home.overview')}</p></a
+					>
+					<a on:click={() => (showMobileMenu = false)} class="text-black font-normal" href="#faq"
+						>{$t('home.faqs')}</a
+					>
+					<a
+						on:click={() => (showMobileMenu = false)}
+						class="text-black font-normal"
+						href="#timeline">{$t('home.timeline')}</a
+					>
+					<a on:click={() => (showMobileMenu = false)} class="text-black font-normal" href="#about"
+						>{$t('home.about')}</a
+					>
 					<div>
 						<div class="dropdown onlyMobile text-black font-normal">
 							<div>
-								<a href={lang === 'th' ? 'en' : 'th'} class="text-black font-normal"
-									>{lang === 'th' ? '🇺🇸 EN' : '🇹🇭 TH'}</a
+								<a
+									on:click={() => (showMobileMenu = false)}
+									href={lang === 'th' ? 'en' : 'th'}
+									class="text-black font-normal">{lang === 'th' ? '🇺🇸 EN' : '🇹🇭 TH'}</a
 								>
 							</div>
 							<button class="close" on:click={() => (showMobileMenu = !showMobileMenu)}>
