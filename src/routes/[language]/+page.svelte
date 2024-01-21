@@ -57,4 +57,18 @@
 	<Chapters />
 	<!--Eve-->
 	<Sponsors sponsors={data.sponsor ?? []} />
+	<div class="flex flex-col justify-center p-5 gap-3 items-center">
+		<p class="text-center">© 2023. Google Developer Student Clubs Thailand.All rights reserved.</p>
+		<div class="flex gap-5">
+			<a href="https://www.facebook.com/malong.th" target="_blank">
+				<img alt="facebook" src="https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico" />
+			</a>
+			<a href="https://www.instagram.com/malong.gdsc/" target="_blank">
+				<img
+					alt="Instagram"
+					src="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png"
+				/>
+			</a>
+		</div>
+	</div>
 </main>
