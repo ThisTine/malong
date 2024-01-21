@@ -7,38 +7,12 @@
 	<div class="wrapper md:flex max-md:items-center w-full">
 		<img alt="info-vector" src="info-vector.png" class="md:hidden w-max h-auto mx-auto pt-5" />
 		<div class="p-4 flex flex-col max-md:items-center">
-			<div class="flex text-h2 whitespace-nowrap max-lg:text-pretty font-bold">
-				{#each [$t('home.info1Title'), $t('home.info1TitleMA'), $t('home.info1TitleL'), $t('home.info1TitleO'), $t('home.info1TitleNG')] as title}
-					<p
-						class={title === $t('home.info1Title')
-							? 'text-black max-md:text-center'
-							: title === $t('home.info1TitleMA')
-								? 'text-blue500 max-lg:hidden max-lg:overflow-hidden ml-2'
-								: title === $t('home.info1TitleL')
-									? 'text-green500 max-lg:hidden max-lg:overflow-hidden'
-									: title === $t('home.info1TitleO')
-										? 'text-yellow600 max-lg:hidden max-lg:overflow-hidden'
-										: 'text-red500 max-lg:hidden max-lg:overflow-hidden'}
-					>
-						{title}
-					</p>
-				{/each}
+			<div class="flex text-h2 max-lg:text-pretty font-bold">
+				<p class="text-center">
+					{@html $t('home.info1Title2')}
+				</p>
 			</div>
-			<div class="lg:hidden text-h2 flex font-bold">
-				{#each [$t('home.info1TitleMA'), $t('home.info1TitleL'), $t('home.info1TitleO'), $t('home.info1TitleNG')] as title}
-					<p
-						class={title === $t('home.info1TitleMA')
-							? 'text-blue500'
-							: title === $t('home.info1TitleL')
-								? 'text-green500'
-								: title === $t('home.info1TitleO')
-									? 'text-yellow600'
-									: 'text-red500'}
-					>
-						{title}
-					</p>
-				{/each}
-			</div>
+
 			<div class="flex w-[80%] ml-0 justify-start text-start flex-row">
 				<p class="text-body1 font-normal inline-block">
 					<span class="text-body1 font-bold inline-block">
