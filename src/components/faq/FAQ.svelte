@@ -10,7 +10,6 @@
 		<FAQ faq={{ question: $t('home.q1Faq'), answer: $t('home.a1Faq') }} />
 		<FAQ faq={{ question: $t('home.q2Faq'), answer: $t('home.a2Faq') }} />
 		<FAQ faq={{ question: $t('home.q3Faq'), answer: $t('home.a3Faq') }} />
-		<FAQ faq={{ question: $t('home.othersFaq'), answer: $t('') }} />
 	</div>
 	<br />
 </div>
