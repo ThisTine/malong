@@ -15,9 +15,9 @@
 				<button class="hamburger" on:click={() => (showMobileMenu = !showMobileMenu)}>
 					<img src="burger.svg" alt="Menu" />
 				</button>
-				<div class="logo">
+				<a href="#" class="logo">
 					<img alt="Logo" src="logo.png" style="width:100px;" />
-				</div>
+				</a>
 			</div>
 
 			{#if showMobileMenu}

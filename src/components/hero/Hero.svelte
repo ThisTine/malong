@@ -8,13 +8,22 @@
 			<p class="font-bold text-yellow-500">{$t('home.intro')}</p>
 			<h1 class="text-header font-bold text-black">{$t('home.title')}</h1>
 			<p class="text-black font-normal">{$t('home.body')}</p>
-			<a
-				href="https://gdsc.community.dev/events/details/developer-student-clubs-thammasat-university-presents-malong-thailand-demo-day/cohost-king-mongkuts-university-of-technology-thonburi"
-				target="_blank"
-				class="styleButton text-white font-normal"
-			>
-				{$t('home.regis')}
-			</a>
+			<div class="flex flex-col md:flex-row gap-1 md:gap-5">
+				<a
+					href="https://forms.gle/nvuBHqiLQbvabsJf8"
+					target="_blank"
+					class="styleButton text-white font-normal"
+				>
+					{$t('home.regis')}
+				</a>
+				<a
+					href="https://gdsc.community.dev/events/details/developer-student-clubs-thammasat-university-presents-malong-thailand-demo-day/cohost-king-mongkuts-university-of-technology-thonburi"
+					target="_blank"
+					class="styleButton text-white font-normal"
+				>
+					{$t('home.regisRSVP')}
+				</a>
+			</div>
 		</div>
 	</div>
 </div>

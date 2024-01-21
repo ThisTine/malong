@@ -2,7 +2,7 @@
 	import { t } from '$lib/translation/translations';
 </script>
 
-<div class=" flex w-full justify-center flex-col">
+<div id="overview" class=" flex w-full justify-center flex-col">
 	<!-- First Info -->
 	<div class="wrapper md:flex max-md:items-center w-full">
 		<img alt="info-vector" src="info-vector.png" class="md:hidden w-max h-auto mx-auto pt-5" />
@@ -103,11 +103,11 @@
 			</div>
 			<div class="flex px-auto py-5 mx-auto justify-center items-center">
 				<a
-					class="text-xl bg-transparent hover:bg-slate-50 text-slate-50 font-bold hover:text-blue-500 border-2 border-slate-50 hover:border-blue-500
+					class="text-xl transition bg-transparent hover:bg-slate-50 text-slate-50 font-bold hover:text-blue-500 border-2 border-slate-50 hover:border-blue-500
 					w-[193px] h-[49px] px-8 py-3 rounded-2xl justify-center items-center gap-2.5 inline-flex"
-					href="https://gdsc.community.dev/events/details/developer-student-clubs-thammasat-university-presents-malong-thailand-demo-day/"
+					href="https://forms.gle/nvuBHqiLQbvabsJf8"
 				>
-					Register Now
+					{$t('home.regis')}
 				</a>
 			</div>
 			<div class="flex-1 pl-3 text-center text-pretty">
