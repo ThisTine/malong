@@ -29,5 +29,8 @@ export default {
 			}
 		}
 	},
+	purge: {
+		safelist: ['text-blue500', 'text-red500', 'text-green500', 'text-yellow600']
+	},
 	plugins: []
 };
